@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee,faPlus} from '@fortawesome/free-solid-svg-icons'
+import { faPlus} from '@fortawesome/free-solid-svg-icons'
 import './PlayerShow.css';
 const PlayerShow = (props) => {
     const {img,name,salary} = props.player;
@@ -17,6 +17,7 @@ const PlayerShow = (props) => {
                    onClick={ ()=> props.handelAddPlayer(props.player) }
                 >
                     <FontAwesomeIcon icon={faPlus} />Add Player</button>
+                
             </div>
             
         </div>
