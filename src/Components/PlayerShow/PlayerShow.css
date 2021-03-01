@@ -1,0 +1,8 @@
+.players-info img {
+    height:100px;
+    margin-bottom: 20px;
+    margin-top:5px;
+}
+.players-info  {
+    border-bottom: 2px solid green;
+}
